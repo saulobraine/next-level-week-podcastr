@@ -21,6 +21,23 @@
   --purple-800: #6f48c9;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --white: #333;
+
+    --gray-50: #494d4B;
+    --gray-100: #808080;
+    --gray-200: #afb2b1;
+    --gray-500: #e6e8eb;
+    --gray-800: #f7f8fa;
+
+    --purple-300: #6f48c9;
+    --purple-400: #8251e5;
+    --purple-500: #9164fA;
+    --purple-800: #9f75ff;
+  }
+}
+
 
 @media (max-width: 1080px) {
   html {
